@@ -45,7 +45,9 @@ if (word[3] == letter):
 if (word[4] == letter):
     value = value + 1
 
-if (value >= 1):
+if (value > 1):
     print(str(value) + " instances of " + str(letter) + " found in " + str(word))
+if (value == 1):
+    print(str(value) + " instance of " + str(letter) + " found in " + str(word))
 else:
-    print("No instances of " + str(letter) + "found in " + str(word))
+    print("No instances of " + str(letter) + " found in " + str(word))
